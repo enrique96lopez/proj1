@@ -12,6 +12,8 @@ gem 'devise'
 gem 'foundation-rails', '5.4.5'
 gem 'simple_form'
 
+
+
 group :development do
   gem 'sqlite3'
   gem 'better_errors'

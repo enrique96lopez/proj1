@@ -1,0 +1,5 @@
+<h2> Get Creative! Tell us about your Pokemon! </h2>
+<%= simple_form_for Pokemon.new do |f| %>
+  Name <%= f.text_field :name %>
+  <%= f.submit "Create" %>
+<% end %>
